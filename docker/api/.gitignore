@@ -1,2 +1,3 @@
 node_modules
-.sequelizerc
+# в реальных проектах .sequelizerc не нужно публиковать в репозитории
+# .sequelizerc
