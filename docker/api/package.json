@@ -1,0 +1,18 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "description": "Тестовое АПИ для демонстрации работы в контейнере",
+  "license": "ISC",
+  "author": "kei",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.4",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3"
+  }
+}
