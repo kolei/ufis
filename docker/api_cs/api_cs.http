@@ -1,0 +1,5 @@
+@api_cs_HostAddress = http://localhost:5091
+
+GET {{api_cs_HostAddress}}/genre
+
+###

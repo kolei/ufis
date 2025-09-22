@@ -61,7 +61,7 @@ docker build -t test-mysql .
 ## Запуск образа с указанием тома (volume)
 
 ```sh
-docker run --name test_mysql -d -p 3308:3306 -e MYSQL_ROOT_PASSWORD=toor -v ./db_volume:/var/lib/mysql test-mysql
+docker run --name test_mysql --network test-network -d -p 3308:3306 -e MYSQL_ROOT_PASSWORD=toor -v ./db_volume:/var/lib/mysql test-mysql
 ```
 
 * `docker run`: Консольная команда для запуска нового контейнера. 

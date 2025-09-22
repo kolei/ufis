@@ -5,6 +5,7 @@
 1. [Основы](./articles/docker01.md)
 1. [Создание первого образа (база данных)](./articles/docker_mysql.md)
 1. [Создание образа АПИ (express.js). Настройка сети](./articles/docker_express_js.md)
+1. [Создание образа АПИ написанного на C#. Мультистадийная сборка образа](./articles/docker_cs.md)
 
 <!-- 
 
