@@ -8,9 +8,10 @@ RUN dotnet build api_cs.csproj -c $BUILD_CONFIGURATION -o ./build
 RUN dotnet publish api_cs.csproj -c $BUILD_CONFIGURATION -o ./publish -r linux-arm64 --self-contained true
 
 # FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
-FROM ubuntu AS runtime
+FROM alpine AS runtime
 WORKDIR /app
 COPY --from=build /src/publish .
 
-RUN chmod 777 ./api_cs
-CMD ./api_cs
+# RUN chmod 777 ./api_cs
+ENTRYPOINT [ "./api_cs" ] 
+# CMD ["dotnet", "/app/api_cs.dll"]
