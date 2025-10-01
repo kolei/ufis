@@ -18,7 +18,7 @@
 >    create database ekolesnikov_2022;
 >    ```
 
-* [Предварительное задание ДЭ2026](./articles/de2026_example.md)
+1. [Предварительное задание ДЭ2026](./articles/de2026_example.md)
 
 ## [Курсовой проект](./kp2.md)
 
